@@ -1,13 +1,13 @@
 # Poker Face
 
-# Intro
+## Intro
 
 Coding test for Poker Face challenge.
 Requirements can be found in "Poker Challenge.pdf"
 
 Read input from a file and convert the specified hands (there may be many) into the name of the corresponding poker hand.
 
-# Run application
+## Run application
 
 In base source directory:
 
@@ -17,7 +17,7 @@ In base source directory:
 
 Alternatively run:
 
-#Test application
+## Test application
 
 Run tests using command _npm test_.
 Watch tests using command _npm run testWatch_. Now changes to src or test code will be automatically retested.
