@@ -1,0 +1,19 @@
+{
+  "name": "pokerface",
+  "version": "1.0.0",
+  "description": "Poker Challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha",
+    "testWatch": "mocha --watch",
+    "e2eTestSingleLine": "node src/index.js test/inputFiles/oneLine.txt",
+    "e2eTestMultiLine": "node src/index.js test/inputFiles/multiLine.txt",
+    "e2eTestAllOutputs": "node src/index.js test/inputFiles/allOutputs.txt"
+  },
+  "author": "vquigley",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
