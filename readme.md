@@ -13,9 +13,8 @@ In base source directory:
 
 1. npm install
 2. node src/index.js _pathToFile_
-   Example node src/index.js test/inputFiles/allOutputs.txt
-
-Alternatively run:
+   
+Example node src/index.js test/inputFiles/allOutputs.txt
 
 ## Test application
 
