@@ -2,19 +2,20 @@ var fs = require('fs');
 var readline = require('readline');
 var stream = require('stream');
 const Hand = require("./models/hand")
+const HandService = require("./services/handService")
 
 var fileLocation = process.argv[2];
 
 try 
 {
-  var instream = fs.createReadStream(fileLocation);
-  var outstream = new stream;
-  var reader = readline.createInterface(instream, outstream);
+  let instream = fs.createReadStream(fileLocation);
+  let outstream = new stream;
+  let reader = readline.createInterface(instream, outstream);
+  let handService = new HandService();
 
   reader.on('line', function(line) {
-    // process line here
     let hand = new Hand(line);
-    console.log(`${line} => ${hand.getBest()}`);
+    console.log(`${line} => ${handService.getBestHand(hand)}`);
   });
 }
 catch (err) {
