@@ -7,6 +7,10 @@ Requirements can be found in "Poker Challenge.pdf"
 
 Read input from a file and convert the specified hands (there may be many) into the name of the corresponding poker hand.
 
+## Requirements
+
+Latest stable Node/NPM from https://nodejs.org/en/download/
+
 ## Run application
 
 In base source directory:
