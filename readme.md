@@ -1,6 +1,6 @@
-#Poker Face
+# Poker Face
 
-#Intro
+# Intro
 
 Coding test for Poker Face challenge.
 Requirements can be found in "Poker Challenge.pdf"
